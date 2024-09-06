@@ -5,8 +5,8 @@ on:
     - cron: '0 0 * * *'
 
 env:
-  bwcjck: ${{ secrets.bwcjck }}
-  bwcjuid: ${{ secrets.bwcjuid }}
+  bwcjck: ${{ secrets.BWCJCK }}
+  bwcjuid: ${{ secrets.BWCJUID }}
 
 jobs:
   build:
