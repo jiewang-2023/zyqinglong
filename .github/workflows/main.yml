@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 0 * * *'
 
+env:
+  bwcjck: ${{ secrets.bwcjck }}
+  bwcjuid: ${{ secrets.bwcjuid }}
+
 jobs:
   build:
     runs-on: ubuntu-latest
